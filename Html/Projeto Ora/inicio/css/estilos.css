@@ -1,0 +1,179 @@
+
+:root {
+    --large-default-padding: 6.5em;
+    --medium-default-padding: 4em;
+}
+
+body, html {
+    
+        font-size: 62.5%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Evita barras de rolagem horizontais */
+    }
+    
+.imagem-top img {
+        width: 100%;
+        display: block; /* Remove espaços extras ao redor da imagem */
+}
+    
+
+body{
+    
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+
+}
+
+.imagem-top img{
+    width: 100%;
+}
+
+.header {
+    background-color: rgb(13, 13, 29);
+    color: white;
+    height: 10rem;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+
+}
+
+.logotipo {
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+    margin-left: 12rem;
+
+}
+
+.header__nav {
+
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.header__nav ul {
+    
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+    margin: 0;
+    max-width: 100%;
+    margin-left: 50rem;
+    
+}
+
+.header__nav ul li {
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    
+}
+
+.header__nav ul li a{
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.container{
+    padding: 0 15rem 10rem 15rem;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.container h2{
+    font-size: 4rem;
+    align-items: center;
+}
+
+.container p{
+    font-size: 2rem;
+    
+}
+
+.item-shop {
+    display: flex; /* Torna os itens flexíveis */
+    justify-content: center; /* Centraliza os itens na página */
+    gap: 3rem; /* Dá um espaço entre os itens */
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 2rem; /* Adiciona um espaçamento interno */
+    padding-bottom: 10rem;
+    
+    
+}
+
+.item-shop ul{
+    display: flex; 
+    justify-content: center;
+    gap: 30rem;
+    padding: 0;
+    margin: 0;
+
+}
+
+.item-shop ul li{
+    list-style-type: none;
+    box-shadow: 0 5px 10px 3px rgb(13, 13, 29);
+
+}
+
+.item-shop ul li p{
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+.item-shop ul li h2{
+    font-size: 2rem;
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+
+.item-shop ul li img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+.cont-mid__sect{
+    background-color: #003d52;
+    padding: var(--large-default-padding);
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    font-size: 2rem;
+
+}
+
+.cont-mid__sect p{
+    padding-top: 40px;
+    width: 80rem;
+
+}
+
+.cont-mid__sect h2{
+    font-size: 4rem ;
+    width: 130rem;
+}
+
+.footer {
+    background: #0b171f;
+    padding: 1.8em;
+    font-size: 3em;
+    color: #6f8597;
+    letter-spacing: .3em;
+    text-align: center;
+}
