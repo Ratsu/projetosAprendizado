@@ -1,0 +1,122 @@
+:root {
+
+    --primary-color: #FED001;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+p, a {
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.wrapperContainer-pad {
+    padding-top: 1px;
+}
+
+.hero_title {
+    margin-bottom: 10rem;
+}
+
+nav a{
+    color: inherit;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 1.6rem 5rem;
+    
+}
+
+.wrapperContainer-dark{
+    height: 9.5rem;
+    background-color: #2A2A2A;
+    color: #FAFAFA;
+}
+
+.wrapperContainer-light{
+    background-color: #FAFAFA;
+}
+
+.wrapperContainer-dark2{
+    background-color: #003464;
+    color: #FAFAFA;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.header_nav a{
+    padding: .75em 1.15em;
+    border: 1px solid;
+    text-decoration: none;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: 3.5rem;
+    list-style-type: none;
+}
+
+.header_nav a:hover{
+    background-color: black;
+}
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25rem;
+}
+
+.wrapperContainer-hero {
+ 
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(238, 238, 124));
+}
+
+.cursos{
+    text-align: center;
+}
+
+.btn_cursos{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 1.6rem 5rem;
+    
+
+}
